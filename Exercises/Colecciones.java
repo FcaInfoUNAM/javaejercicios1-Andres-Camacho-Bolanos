@@ -39,7 +39,7 @@ public class Colecciones {
     }
 
     public HashMap<Integer, String>  obtenerHash(){
-        int length = cars.size() + bikes.length + bicicles.size();// obtener tamaño
+        //int length = cars.size() + bikes.length + bicicles.size();// obtener tamaño
         int count = 1;
 
         for (String car : cars) {
@@ -63,4 +63,6 @@ public class Colecciones {
         transport.forEach((key, value) -> System.out.println(key + " " + value));
         
         return this.transport;
+}
+
 }

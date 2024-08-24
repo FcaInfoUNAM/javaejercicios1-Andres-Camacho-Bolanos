@@ -7,7 +7,7 @@ public class DataTypes {
     char caracter;
     boolean boleano;
 
-}
+
 
 
 public DataTypes(){
@@ -16,4 +16,6 @@ public DataTypes(){
     this.flotante = 5.9f;
     this.caracter = 'A';
     this.boleano = true;
+}
+
 }
