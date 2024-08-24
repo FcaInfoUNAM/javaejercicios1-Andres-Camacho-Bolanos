@@ -4,3 +4,5 @@ public class EspirituSanto extends Hijo {
         super(nombre, apellido);
         this.apellidoReal = apellidoReal;
     }
+
+}
