@@ -9,7 +9,7 @@ public class Colecciones {
     ArrayList<String> cars ;
     String[] bikes;
     Set<String> bicicles;
-    HashMap<Integer, String> transport;
+    public HashMap<Integer, String> transport;
 
     public Colecciones(){
         this.cars = new ArrayList<String>();
@@ -39,7 +39,7 @@ public class Colecciones {
     }
 
     public HashMap<Integer, String>  obtenerHash(){
-        //int length = cars.size() + bikes.length + bicicles.size();// obtener tamaño
+        int length = cars.size() + bikes.length + bicicles.size();// obtener tamaño
         int count = 1;
 
         for (String car : cars) {

@@ -6,8 +6,8 @@ public class Padre {
         this.apellido = apellido;
     }
     public Boolean test(){
-        Hijo hijo=new Hijo("Juan", String apellido);
-        EspirituSanto es = new EspirituSanto(String nombre, String apellido, "Lopez");
+        Hijo hijo=new Hijo("Juan", apellido);
+        EspirituSanto es = new EspirituSanto(hijo.nombre, apellido, "Lopez");
         return es.pruebaParternidad();
     }
    
